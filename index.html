@@ -4,31 +4,143 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>COCO Extensions - COCOShadesExtensions</title>
-    <link rel="icon" type="image/jpg" href="\favicon.jpg">
+    <link rel="icon" type="image/jpg" href="favicon.jpg">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
         <nav class="navbar">
-            <div>
-                <img src="\favicon.jpg" alt="coco-logo" height="70"> COCO Extensions
-            </div>
-                <ul class="nav-links">
-                <li><a href="#">Home</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Store</a></li>
-                <li><a href="#">Services</a></li>
-                <li><a href="#">Testimonials</a></li>
-                <li><a href="#">Contact</a></li>
-                <li><a href="#"><img src="cart.jpg" alt="Cart" height="15"></a></li>
-                <li><a href="#"><img src="message.jpg" alt="Message" height="12"></a></li>
-            </ul>
+            <div class="nav-logo"> <!--div element is block level container-->
+            <img src="favicon.jpg" alt="Company Logo" class="logo">
+            <span class="logoName">COCO Extensions</span> <!--span element is inline container-->
+        </div>
+        <ul class="nav-links">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Store</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Testimonials</a></li>
+            <li><a href="#">Contact</a></li>
+            <li><a href="#"><img src="cart.jpg" alt="Cart" class="nav-icon"></a></li>
+            <li><a href="#"><img src="message.jpg" alt="Message" class="nav-icon"></a></li>
+
+        </ul>
 
         </nav>
     </header>
-    <section class="Home">
-        <img src="home background.png" alt="home background image" width="1300">
-    </section>
+    <!-- Hero Section -->
+<section class="hero">
+    <div class="hero-image">
+      <img src="home background.png" alt="Hero Image">
+    </div>
+    <div class="hero-text">
+      <h1>
+        COCO<br>
+        <span>Shades</span><br>
+        <span>Extensions</span><br>
+        Enhancing Your<br>
+        Natural Beauty
+      </h1>
+      <div class="hero-buttons">
+        <button class="btn">Shop Now</button>
+        <button class="btn">Contact Us</button>
+      </div>
+    </div>
+  </section>
+  <!-- About Section -->
+<section class="about">
+    <div class="about-image">
+      <img src="about-image.jpg" alt="About Us Image">
+    </div>
+    <div class="about-content">
+      <h2>About Us</h2>
+      <p>
+        At Coco Extensions, we believe in enhancing the natural beauty of our clients with the finest quality hair extensions. Our team is dedicated to providing a seamless blend and a perfect match, ensuring you look and feel amazing. Experience the transformation with our luxurious and professionally applied extensions.
+      </p>
+    </div>
+  </section>
+
+  <!-- Store Section -->
+<section class="store">
+    <h2>Categories</h2>
+    <div class="store-cards">
+      <div class="card">
+        <img src="clip ins.jpg" alt="Clip Ins">
+        <h3>CLIP INS</h3>
+      </div>
+      <div class="card">
+        <img src="wigs.jpg" alt="Wigs">
+        <h3>WIGS</h3>
+      </div>
+      <div class="card">
+        <img src="tapes.jpg" alt="Tapes">
+        <h3>TAPES</h3>
+      </div>
+      <div class="card">
+        <img src="wefts.jpg" alt="Wefts">
+        <h3>WEFTS</h3>
+      </div>
+    </div>
+  </section>
+  
+  <!-- Store Subsection -->
+<section class="store-subsection">
+    <div class="store-subsection-image">
+      <img src="Discover photo.png" alt="Discover Your Look">
+    </div>
+    <div class="store-subsection-content">
+      <h2>Discover Your New Look</h2>
+      <p>Transform Your Hair, <br> Transform Your Life</p>
+    </div>
+  </section>
+  
+  <!-- Services Section -->
+<section class="services">
+    <h2>Services</h2>
+    <div class="services-row">
+      <div class="service-card">
+        <img src="firstImgFirstRow.jpg" alt="Tape-In Extensions">
+      </div>
+      <div class="service-card text-card">
+        <h3>Tape-In Extensions</h3>
+        <p>Achieve a natural and seamless look with our tape-in extensions. Ideal for adding length and fullness.</p>
+      </div>
+      <div class="service-card">
+        <img src="secondImgFirstRow.jpg" alt="Service Image 3">
+      </div>
+    </div>
     
+    <div class="services-row">
+      <div class="service-card text-card">
+        <h3>Clip-In Extensions</h3>
+        <p>Easy-to-use clip-in extensions for instant length and volume that can be applied at home or by our professionals.</p>
+      </div>
+      <div class="service-card">
+        <img src="firstImgSecondRow.jpg" alt="Service Image 2">
+      </div>
+      <div class="service-card text-card">
+        <h3>Custom Color Matching</h3>
+        <p>Our experts will match your extension color precisely to your natural hair, ensuring a flawless blend.</p>
+      </div>
+    </div>
+  </section>
+  
+<!-- Testimonials Section -->
+<section class="testimonials">
+    <h2>Testimonials</h2>
+    <div class="testimonial-container">
+      <div class="testimonial-box">
+        <p><strong>Emily Johnson</strong></p>
+        <p>Flawless Extensions gave me the hair of my dreams! The quality and service are outstanding.</p>
+        <div class="stars">⭐⭐⭐⭐⭐</div>
+      </div>
+      <div class="testimonial-box">
+        <p><strong>Sarah Thompson</strong></p>
+        <p>I can't believe the difference! My hair looks so much fuller and healthier with these extensions.</p>
+        <div class="stars">⭐⭐⭐⭐⭐</div>
+      </div>
+    </div>
+  </section>
+  
 </body>
 </html>

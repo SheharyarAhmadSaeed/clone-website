@@ -81,7 +81,7 @@ body {
   top: 50%;
   left: 50%;
   width: 100px; /* Adjust circle size as needed */
-  height: 70px;
+  height: 40px;
   background-color: white;
   border-style: solid;
   border-color: #D0AE81;
@@ -101,6 +101,7 @@ body {
   align-items: center;
   justify-content: space-between;
   padding: 50px;
+  padding-right: 0%;
   background-color: #F4F4F4;
   gap: 20px;
   flex-direction: row-reverse;
@@ -111,6 +112,9 @@ body {
 .hero-image {
   display: flex;
   justify-content: center;
+  margin-right: 0%;
+  left: 0;
+  right: 0;
 }
 
 .hero-image img {
@@ -121,6 +125,7 @@ body {
   margin-right: 0%;
   left: 0;
   right: 0;
+justify-content: left;
 }
 
 /* Right Side Text Styling */
@@ -595,9 +600,4 @@ color: #555;
   
 }
 
-
-@keyframes slideIn {
-  to {
-    left: 0;
-  }
-}
+  
